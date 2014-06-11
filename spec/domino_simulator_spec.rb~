@@ -1,0 +1,19 @@
+#require 'spec_helper'
+require 'domino'
+
+describe Domino do
+  describe '#size' do
+    context '画像を渡すと' do
+      it 'その画像でのドミノ倒しに必要な広さを返す' do
+        expect(Domino.decrease_dpi("/spec/siki_natu03.jpg")).to eq([1.55, 1.488]) 
+      end
+=begin
+    context '画像を渡さなければ' do
+      it '例外？'
+    end
+=end
+    end
+  end
+end
+
+
