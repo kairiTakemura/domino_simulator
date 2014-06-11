@@ -4,7 +4,11 @@ TODO: Write a gem description
 
 ## Installation
 
+    sudo apt-get install imagemagick
+
     sudo apt-get install libmagickwand-dev
+
+    sudo apt-get install libjpeg-dev
 
 Add this line to your application's Gemfile:
 
