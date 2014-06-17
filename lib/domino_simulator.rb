@@ -3,7 +3,6 @@
 require 'rubygems'
 require 'RMagick'
 
-
 module DominoSimulator
 
   #Each domino RGB value.

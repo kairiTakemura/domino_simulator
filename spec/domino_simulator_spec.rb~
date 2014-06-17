@@ -1,7 +1,7 @@
 #require 'spec_helper'
-require 'domino'
+require 'domino_simulator'
 
-describe Domino do
+describe DominoSimulator do
   describe '#size' do
     context '画像を渡すと' do
       it 'その画像でのドミノ倒しに必要な広さを返す' do

@@ -2,7 +2,7 @@
 #require "domino_simulator/version"
 require 'rubygems'
 require 'RMagick'
-
+require 'libjpeg-dev'
 
 module DominoSimulator
 
