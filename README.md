@@ -1,6 +1,12 @@
 # DominoSimulator
 
-TODO: Write a gem description
+DominoSimulator is command line apkication gem.
+If you enter the picture, it outputs the breadth, the number of Domino needed to domino the picture. In addition, This will also output rendering of the Domino.
+
+Domino is assumed that you use what you are lending in Japan Domino Association. 
+The color of Domino is 9 colors of black, white, red, blue, yellow, green, orange, pink, and purple. 
+Please refer to the website of Domino Association for more information.
+http://www.domino.or.jp/
 
 ## Installation
 
@@ -24,7 +30,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Specify the path to the image file to the first argument, please run the /lib/domino_simulator.rb.
+Result is output, rendering will be output to the current directory.
+
+    $ ./lib/domino_simulator.rb IMAGEFILE
 
 ## Contributing
 
